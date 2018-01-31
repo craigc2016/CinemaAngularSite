@@ -1,0 +1,56 @@
+.review {
+  margin: 50 0 0 300;
+  padding: 0;
+  width: 20em;
+}
+.review p{
+
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 8em;
+  border-radius: 4px;
+}
+
+
+.review .text {
+  position: relative;
+  top: -3px;
+}
+button{
+	cursor: pointer;
+	
+}
+
+#img1{
+	margin: -1090 0 0 750;
+	height: 170;
+	width:  170;
+}
+#img2{
+	margin: -910 0 0 750;
+	height: 170;
+	width: 170;
+}
+#img3{
+	margin: -727 0 0 750;
+	height: 170;
+	width: 170;
+}
+#img4{
+	margin: -540 0 0 750;
+	height: 170;
+	width: 170;
+}
+#img5{
+	margin: -362 0 0 750;
+	height: 170;
+	width: 170;
+}
+#img6{
+	margin: -180 0 0 750;
+	height: 170;
+	width: 170;
+}

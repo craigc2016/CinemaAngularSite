@@ -1,0 +1,10 @@
+import { Review } from './review';
+
+export const REVIEWS: Review[] = [
+  { id: 1, vid: 'https://www.youtube.com/watch?v=oZL1Hey0fzg&t=4s', review: 'This comedy brings police into new light. It is the anti bad boyz film. Instead of tring to catch the bad guys there are the bad guys. This is a brillant spin on the normal police movies. A must see for laugh out loud enthusiast '},
+  { id: 2, vid: 'https://www.youtube.com/watch?v=WOuKLtSVFcY', review: 'Based on the best seller girl on the train by British author Paula Hawkins. This physiological thriller has you on the edge for the whole film. It shows the plight of addiction from the case of life trumas. Is a great watch througout'},
+  { id: 3, vid: 'https://www.youtube.com/watch?v=HSzx-zryEgM', review: 'Another installment in th emuch acclaimed Marvel series. Like most it is a superhero film with the battle for good and evil. But the battle is of the mind its like a superhero film meets inception. Remommended if you like the Marvel series'},
+  { id: 4, vid: 'https://www.youtube.com/watch?v=PXrm5eU6HtY', review: 'This kids adaptation from dream works. Arrives just on time for the kids mid-term. It is the usual child film with some great annimation to capture the attention. It also has its laugh out loud moments that the adults will enjoy.'},
+  { id: 5, vid: 'https://www.youtube.com/watch?v=DBfsgcswlYQ', review: 'This action shoot em up is a highly recommened watch. If you are a lover of shooters this is the film for you. while being full of the action film you expect. It also has a lerning experience on aspergers with all the great ability for maths it highlights the struugles'},
+  { id: 6, vid: 'https://www.youtube.com/watch?v=aRwrdbcAh2s', review: 'This crime thriller slash shoot em up. Is a good watch if you are in the mood for some layed back shooting and nothing to serious. In the genre of the die hard fanchise. Fans of the first will appreciate this more.'}
+];

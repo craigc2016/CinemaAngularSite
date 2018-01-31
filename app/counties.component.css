@@ -1,0 +1,113 @@
+.counties {
+  margin: 10 0 0 0;
+  list-style-type: none;
+  padding: 0;
+  width: 14.7em;
+}
+.counties li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.counties li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.counties .text {
+  position: relative;
+  top: -3px;
+}
+.counties .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  margin: 0 0 0 43;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  height: 70;
+  width: 276;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+.review {
+  margin: 50 0 0 300;
+  padding: 0;
+  width: 20em;
+}
+.review p{
+
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 8em;
+  border-radius: 4px;
+}
+
+
+.review .text {
+  position: relative;
+  top: -3px;
+}
+button{
+	cursor: pointer;
+}
+#h2{
+	margin: 30 0 0 40;
+	color: yellow;
+	
+}
+
+#img1{
+	margin: -1090 0 0 750;
+	height: 170;
+	width:  170;
+}
+#img2{
+	margin: -910 0 0 750;
+	height: 170;
+	width: 170;
+}
+#img3{
+	margin: -727 0 0 750;
+	height: 170;
+	width: 170;
+}
+#img4{
+	margin: -547 0 0 750;
+	height: 170;
+	width: 170;
+}
+#img5{
+	margin: -362 0 0 750;
+	height: 170;
+	width: 170;
+}
+#img6{
+	margin: -180 0 0 750;
+	height: 170;
+	width: 170;
+}

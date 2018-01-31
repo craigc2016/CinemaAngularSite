@@ -1,0 +1,40 @@
+
+<ul class="movies">
+<h2 id = "h2">Movies Showing</h2>
+  <li *ngFor="let movie of movies">
+   <span class="badge">Title :</span> {{movie.name}} <br><span class="badge">Dates :</span> {{movie.date}} <br> <span class="badge">Times :</span>{{movie.times}} <br><span class="badge">Rating :</span>Rating out of 10 : {{movie.rating}}
+  </li>
+
+</ul>
+
+<div id="photoShow">
+        <div class="current">
+            <img src="images/main/waroneveryone.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+        <div>
+            <img src="images/main/girl.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+		<div>
+            <img src="images/main/doc.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+		<div>
+            <img src="images/main/troll.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+		<div>
+            <img src="images/main/acc.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+		<div>
+            <img src="images/main/jack.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+		
+    </div>
+
+<h2 id = "h21">Top Reviews</h2>
+<div class="review">
+  <p *ngFor="let review of reviews">
+   {{review.review}}
+  <a href = "{{review.vid}}"> <button>View Trailer</button></a>
+  </p>
+</div>
+
+<button id = "review" (click)="gotoReview()">Check Out More Reviews</button>

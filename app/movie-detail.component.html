@@ -1,0 +1,16 @@
+<div *ngIf="movie">
+      <div>
+	 <div class = "movie">
+	   <h2 id = "h21">{{movie.name}} Movie details</h2>
+	  <img src = "{{movie.img}}" />
+	  <br>
+	  <p>
+	  Title:{{movie.name}}
+	  Cast:{{movie.cast}}
+	  Director: {{movie.director}}
+	  </p>
+	  <br>
+	  <button (click)="goBack()">Back</button>
+	  </div>
+	  
+	  

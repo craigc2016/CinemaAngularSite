@@ -1,0 +1,18 @@
+<h2 id = "h2">My Counties List</h2>
+<ul class="counties">
+  <li *ngFor="let counties of counties"
+    [class.selected]="counites === selectedCounties"
+    (click)="onSelect(counties)">
+    <span class="badge">{{counties.id}}</span>{{counties.name}}
+  </li>
+</ul>
+
+   <div *ngIf="selectedCounties">
+   <h4 id = "h4">
+   </h4>
+<my-cinemas></my-cinemas>
+  
+</div>
+
+
+

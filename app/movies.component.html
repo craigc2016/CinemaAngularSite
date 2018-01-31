@@ -1,0 +1,49 @@
+<div *ngIf = "cinemas">
+<h2 id = "h2">{{cinemas.name}}</h2>
+</div>
+<h2 id = "h2">Movies Showing</h2>
+<ul class="movies">
+  <li *ngFor="let movie of movies"
+    [class.selected]="movie === selectedMovie"
+    (click)="onSelect(movie)">
+   <span class="badge">Title :</span> {{movie.name}} <br><span class="badge">Dates :</span> {{movie.date}} <br> <span class="badge">Times :</span>{{movie.times}} <br><span class="badge">Rating :</span>Rating out of 10 /  {{movie.rating}}
+  
+  </li>
+
+</ul>
+
+	
+   <div id = "button"*ngIf="selectedMovie">
+ 
+  <button (click)="gotoDetail()">View Details {{selectedMovie.name}}</button>
+  
+</div>
+
+<h2 id = "h21">Movies Comming Soon</h2>
+<div id="photoShow">
+        <div class="current">
+            <img src="images/fantastic.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+		
+		 <div class="current">
+            <img src="images/starwars.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+		
+		 <div class="current">
+            <img src="images/assassin.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+		
+		 <div class="current">
+            <img src="images/res.jpe" alt="Photo Gallery" class="gallery" />
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+

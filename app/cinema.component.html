@@ -1,0 +1,36 @@
+
+
+<h2 id = "h2">Cinema List</h2>
+<ul class="cinemas">
+  <li *ngFor="let cinema of cinemas"
+    [class.selected]="cinema === selectedCinema"
+    (click)="onSelect(cinema)">
+    <span class="badge">{{cinema.id}}</span>{{cinema.name}} 
+  </li>
+</ul>
+<div *ngIf="selectedCinema">
+   
+  <button (click)="gotoDetail()">View Details    {{selectedCinema.name}}</button>
+  
+
+  <div class="cinemas1">
+   <h2 id = "h21">Cinema Information</h2>
+  <p *ngFor="let cinema of cinemas">
+   {{cinema.about}}
+  </p>
+ 
+  
+<img id = "img1"src = "images/cine.png" />
+
+<img id = "img2"src = "images/imc.png" />
+
+<img id = "img3"src = "images/od.jpe" />
+
+<img id = "img4"src = "images/sav.png" />
+
+</div>
+  
+</div>
+
+
+
